@@ -1,6 +1,11 @@
 package com.interest.calculator.model;
 
+
+
 public class Customer {
+    public String firstName;
+    public String lastName;
+    public String email;
 
     public String getFirstName() {
         return firstName;
@@ -25,8 +30,4 @@ public class Customer {
     public void setEmail(String email) {
         this.email = email;
     }
-
-    public String firstName;
-    public String lastName;
-    public String email;
 }
