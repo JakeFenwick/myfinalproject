@@ -9,16 +9,13 @@ public class Customer {
     @Id
     @GeneratedValue(strategy =  GenerationType.IDENTITY)
     private Long id;
-    String firstName;
-    String lastName;
-    String email;
 
-    public String getEmail() {
-        return email;
+    public Long getId() {
+        return id;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getFirstName() {
@@ -37,14 +34,15 @@ public class Customer {
         this.lastName = lastName;
     }
 
-
-    public void setId(Long id) {
-        this.id = id;
+    public String getEmail() {
+        return email;
     }
 
-    @Id
-    public Long getId() {
-        return id;
+    public void setEmail(String email) {
+        this.email = email;
     }
-}
 
+    String firstName;
+    String lastName;
+    String email;
+    }
