@@ -5,11 +5,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
-public class loan {
+public class loanFormula {
 
     final int numOfMonths = 12;
     final int annualInterest =;
-    final int numOfYears = ;
+    final int numOfYears =;
 
 
     // Create a method for calculating interest/months/years
