@@ -3,7 +3,6 @@ package com.interest.calculator.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Customers")
 
 public class Customer {
     @Id
