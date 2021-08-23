@@ -3,11 +3,13 @@ package com.interest.calculator.model;
 import javax.persistence.*;
 
 @Entity
-
+@Table(name = "Customers")
 public class Customer {
+
     @Id
     @GeneratedValue(strategy =  GenerationType.IDENTITY)
     private Long id;
+
 
     public Long getId() {
         return id;
