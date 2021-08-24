@@ -1,9 +1,30 @@
 ***Web interface interest calculator***
 
-Start of README
+Hello and welcome to my interest calculator!
 
-Main idea is a web based application using
-springboot, maven, java html,css
+***SOFTWARE DEVELOPMENT AND REQUIREMENTS***
 
-Frontend: HTML and css
-Backend: Springboot and java
+The requirements for development of this project are as listed:
+
+*Intellij
+*JDK of 16+
+*Maven
+*Springboot
+*Thymeleaf
+*H2 database, css, html
+*JUnit testing
+
+***PURPOSE OF MICROSERVICE***
+
+The main purpose of my micro service is to allow any user/customer
+easy access to get interest rate details:such as monthly,
+yearly payments , Total amount of interest paid per year
+and over the whole loan term. This will allow users too
+compare their personal rates/ other business rates to help
+ensure the user is getting a good deal. The target audience
+is any body who wants to get loan information.
+
+***FEATURES***
+
+
+***IMPLEMENTATION PLAN***
