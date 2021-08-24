@@ -29,20 +29,23 @@ is anybody who wants to get loan information.
 My microservice implements some basic features such as:
 
 *Displaying a welcome message "Welcome to my interest calculator".
+
 *Displaying an interactive table which users put in required information.
+
 *Using java for math formula to compute interest.
+
 *The user information will be saved to a H2 database for future reference
 
 ***Implementation plan***
 
    *PLANNED NOT FINAl*
 
-1: Created a repository online using GitHub
-2: I started my microservice using springIO web initilizer
-3: Imported SpringIO into Intellij IDE
-4: Checked Maven was running correctly
-5: Created controller, model, repository and service files.
-6: Added in customer information under the model as well as interest information.
+1. Created a repository online using GitHub
+2.  I started my microservice using springIO web initilizer
+3. Imported SpringIO into Intellij IDE
+4. Checked Maven was running correctly
+5. Created controller, model, repository and service files.
+6. Added in customer information under the model as well as interest information.
 
 *** To come soon***
 
